@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,600;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bitter", serif;
+}
+
+.section-gym {
+  background: linear-gradient(to bottom, #a5b090, #8d8d8d);
+  padding: 80px 0px 150px 0px;
+}
+
+.title-h1 {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background-color: #0a6789;
+  box-shadow: 0px 0px 5px 1px rgb(121, 121, 121);
+  border-radius: 10px;
+  letter-spacing: 5px;
+}
+
+.content-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.h2-show, .h2-show2, .h2-show3, .h2-show4 {
+  cursor: pointer;
+  width: 65%;
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 1px black;
+  margin: 1rem auto 0rem auto;
+  transition: all 0.3s;
+}
+.h2-show.h2-show:hover, .h2-show.h2-show2:hover, .h2-show.h2-show3:hover, .h2-show.h2-show4:hover, .h2-show2.h2-show:hover, .h2-show2.h2-show2:hover, .h2-show2.h2-show3:hover, .h2-show2.h2-show4:hover, .h2-show3.h2-show:hover, .h2-show3.h2-show2:hover, .h2-show3.h2-show3:hover, .h2-show3.h2-show4:hover, .h2-show4.h2-show:hover, .h2-show4.h2-show2:hover, .h2-show4.h2-show3:hover, .h2-show4.h2-show4:hover {
+  background-color: #054258;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.active {
+  background-color: #054258;
+  color: white;
+}
+
+.h2-hidden {
+  border-bottom: none;
+  box-shadow: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.hidden, .hidden2, .hidden3, .hidden4 {
+  height: 0;
+  overflow: hidden;
+}
+
+.show {
+  overflow: hidden;
+  width: 65%;
+  height: auto;
+  margin: 0 auto 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  border: 1px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.line {
+  width: 100%;
+  height: 0.01rem;
+  opacity: 0.2;
+  margin: 15px 0px 15px 0px;
+  background: black;
+  text-align: center;
+}
+
+.info-ejercicios {
+  margin: 15px 0px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 8px;
+}/*# sourceMappingURL=style.css.map */
